@@ -1,0 +1,19 @@
+public class AccessCheck {
+    public static void main(String[] args) {
+        // Hardcoded variables
+        int userAge = 17;
+        int securityPin = 4321;
+
+        // Simple IF statement for age check
+        if (userAge >= 18) {
+            System.out.println("Adult Account Verified.");
+        }
+
+        // IF-ELSE statement for PIN check
+        if (securityPin == 4321) {
+            System.out.println("Access Granted");
+        } else {
+            System.out.println("Access Denied: Invalid PIN");
+        }
+    }
+}
